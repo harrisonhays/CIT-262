@@ -2,11 +2,11 @@ const express = require('express');
 const app = express();//app is a backend application
 
 app.get("/",(req,res)=>{
-    res.setDefaultEncoding("WElcome to my Sean's backend application");
+    res.send("WElcome to my Harrison's backend application");
 });
 
-app.get("/sean", (req,res)=>{
-    res.send("Hello Sean!");
+app.get("/harrison", (req,res)=>{
+    res.send("Hello Harrison!");
 });
 
 
